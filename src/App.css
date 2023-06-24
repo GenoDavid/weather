@@ -7,6 +7,7 @@
 }
 
 .heading {
+  padding: 1rem;
   text-align: center;
 }
 
@@ -48,7 +49,10 @@
 .weatherinfo {
   width: 380px;
   margin-top: 5rem;
+  text-align: center;
   margin: 5rem auto;
+  background: rgba(110, 110, 110, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 .weatherinfo h1 {
@@ -69,4 +73,8 @@
   justify-content: space-around;
   padding: 0 20px;
   margin-top: 3rem;
+}
+
+p {
+  font-size: 1.1rem;
 }
