@@ -21,10 +21,6 @@ function App() {
     };
 
     window.addEventListener('refresh', handleRefresh);
-
-    return () => {
-      window.removeEventListener('refresh', handleRefresh);
-    };
   }, []);
 
   let data = async () => {
