@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios'
-import { FaSearchLocation, FaWater, FaWind } from "react-icons/fa";
-import { WiDayHail } from "react-icons/wi";
+import { FaSearchLocation } from "react-icons/fa";
 
 function App() {
   // const [count, setCount] = useState(0)
