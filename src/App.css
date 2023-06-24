@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.weather {
+  width: 380px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: auto;
+  background-image: url("https://scied.ucar.edu/sites/default/files/media/images/weather_0.jpg");
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 0.5rem 2rem;
+  font-size: 0.8rem;
+  color: #000000;
+  border-radius: 5rem;
+  position: absolute;
+}
+
+.search-btn {
+  border: none;
+  outline: none;
+  background: none;
+  color: #000000;
+  font-size: 1.2rem;
+  position: relative;
+  margin: 0 auto;
+  margin-right: 5.5rem;
+}
+
+.weatherinfo {
+  width: 380px;
+  margin-top: 5rem;
+  /* background-color: aliceblue; */
+  margin: 5rem auto;
+}
+
+.weatherinfo h1 {
+  font-size: 70px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.weatherinfo h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: -40px;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin-top: 3rem;
+}
